@@ -36,9 +36,6 @@ export default function RootLayout({
             <CssBaseline />
             {/* Ensures consistent colors for background and text */}
             {children}
-            <Button variant='contained' onClick={toggleMode}>
-              Toggle Dark Mode
-            </Button>
           </ThemeProvider>
         </StyledComponentsRegistry>
       </body>
